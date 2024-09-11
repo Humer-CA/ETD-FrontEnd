@@ -10,6 +10,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: "640px", // Small screens (default)
+        md: "768px", // Medium screens
+        lg: "1024px", // Large screens
+        xl: "1280px", // Extra-large screens
+        "2xl": "1536px", // 2x Extra-large screens
+      },
       colors: {
         primary: "#174d7b",
         primaryLight: "#236ba7",
@@ -19,6 +26,7 @@ const config: Config = {
         black: "#212121",
         white: "#ffffff",
         gray: "#808080e2",
+        error: "#e00017",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
