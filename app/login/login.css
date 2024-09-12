@@ -1,0 +1,4 @@
+.login {
+  background: var(--backgroundDarkBlur),
+    url("../../public/Images/background.jpg") no-repeat center center / cover #ffffff;
+}
