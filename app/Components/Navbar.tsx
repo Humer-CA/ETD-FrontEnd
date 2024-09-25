@@ -64,12 +64,17 @@ export default function App() {
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#">
-            Customers
+            Services
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#">
-            Integrations
+            About Us
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            Pricing
           </Link>
         </NavbarItem>
       </NavbarContent>
